@@ -1,4 +1,5 @@
 puts "What is your name?"
+print ">> "
 name = gets.chomp
 #chomp turns "name\n" into just "Name"
 
@@ -9,6 +10,7 @@ What is your current legal situation(choose one number)?
 		3. I live outside the law.
 		4. Questionable.
 }
+print ">> "
 
 answer = gets.chomp
 
